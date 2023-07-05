@@ -1,5 +1,4 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Header from './header/Header.js';
 import Footer from './footer/Footer.js';
 import Main from './main/Main.js';
