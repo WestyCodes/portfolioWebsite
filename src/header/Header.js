@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <div className="container mx-auto flex items-center h-24">
-            <a href="{/}" className="flex items-center justify-center">
+            <a href={'/'} className="flex items-center justify-center">
                 <img
                     className="h-24"
                     src="https://cdn.discordapp.com/attachments/1039952875394187295/1126492552577695744/celtic_west_logo_v2.png"
