@@ -11,7 +11,7 @@ export default function Header() {
                     alt=""
                 />
             </a>
-            <nav className="contents font-semibold text-base lg:text-lg">
+            <nav className="contents font-semibold text-base lg:text-lg flex">
                 <ul className="mx-auto flex items-center">
                     <li className="p-5 xl:p-8 active">
                         <a href="_#">
