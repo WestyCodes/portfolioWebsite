@@ -1,7 +1,7 @@
 export default function Main() {
     return (
-        <div className="mainWrapper">
-            <span>This is the Main section</span>
-        </div>
+        <section className="">
+            <div className="hero section border-solid border-2 border-red-100 h-screen"></div>
+        </section>
     );
 }

@@ -3,7 +3,7 @@ export default function Header() {
     // const navigate = useNavigate();
 
     return (
-        <div className="container mx-auto flex items-center h-24 justify-between">
+        <div className="px-32 flex items-center h-24 justify-between sticky top-0 bg-slate-100 w-screen shadow-xl">
             <a href={'/'} className="flex items-center justify-center">
                 <img
                     className="h-24"
@@ -31,11 +31,6 @@ export default function Header() {
                     <li className="p-5 xl:p-8">
                         <a href="_#">
                             <span>Contact</span>
-                        </a>
-                    </li>
-                    <li className="p-5 xl:p-8">
-                        <a href="_#">
-                            <span>Github</span>
                         </a>
                     </li>
                 </ul>
