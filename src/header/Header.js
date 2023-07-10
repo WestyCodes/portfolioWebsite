@@ -3,7 +3,7 @@ export default function Header() {
     // const navigate = useNavigate();
 
     return (
-        <div className="container mx-auto flex items-center h-24">
+        <div className="container mx-auto flex items-center h-24 justify-between">
             <a href={'/'} className="flex items-center justify-center">
                 <img
                     className="h-24"
@@ -11,7 +11,7 @@ export default function Header() {
                     alt=""
                 />
             </a>
-            <nav className="contents font-semibold text-base lg:text-lg flex">
+            <nav className="font-semibold text-base lg:text-lg flex">
                 <ul className="mx-auto flex items-center">
                     <li className="p-5 xl:p-8 active">
                         <a href="_#">
