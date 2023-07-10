@@ -3,10 +3,10 @@ export default function Header() {
     // const navigate = useNavigate();
 
     return (
-        <div className="px-32 flex items-center h-24 justify-between sticky top-0 bg-slate-100 w-screen shadow-xl">
+        <div className="px-32 flex items-center h-20 justify-between sticky top-0 bg-slate-100 w-screen shadow-xl">
             <a href={'/'} className="flex items-center justify-center">
                 <img
-                    className="h-24"
+                    className="h-20"
                     src="https://cdn.discordapp.com/attachments/1039952875394187295/1126492552577695744/celtic_west_logo_v2.png"
                     alt=""
                 />
