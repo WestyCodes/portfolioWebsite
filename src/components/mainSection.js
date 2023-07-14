@@ -1,4 +1,4 @@
-export default function HeroSection() {
+export default function MainSection() {
     return (
         <div className="border-solid border-2 border-red-100 h-screen flex">
             <div className="border-solid border-2 border-red-300 h-3/4 w-3/4 flex m-auto p-20 gap-10 shadow-xl">
