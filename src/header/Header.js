@@ -3,7 +3,7 @@ export default function Header() {
     // const navigate = useNavigate();
 
     return (
-        <div className="px-32 flex items-center h-20 justify-between sticky top-0 bg-slate-100 w-screen shadow-xl">
+        <div className="px-32 flex items-center h-20 justify-between sticky top-0 bg-slate-300 w-screen shadow-xl">
             <a href={'/'} className="flex items-center justify-center">
                 <img
                     className="h-20"

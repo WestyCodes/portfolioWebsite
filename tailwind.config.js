@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'hero-picture': "url('../public/assets/heroPicture.png')",
+                'endless-picture': "url('../public/assets/endlessPicture.png')",
             },
             colors: {
                 midnightBlue: {
