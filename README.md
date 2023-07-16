@@ -7,6 +7,7 @@
     -   [General info](#general-info)
     -   [Technologies](#technologies)
     -   [Setup](#setup)
+    -   [Art Credits](#art-credits)
 
 ## General info
 
@@ -28,4 +29,9 @@ To run this project, install it locally using npm:
 $ cd ../portfolio-website
 $ npm install
 $ npm start
+
 ```
+
+## Art Credits
+
+Hero_image Image by upklyak on Freepik

@@ -3,7 +3,7 @@ import MainSection from '../components/mainSection';
 
 export default function Main() {
     return (
-        <section>
+        <section className="font-semibold text-base lg:text-lg">
             <HeroSection />
             <MainSection />
         </section>
