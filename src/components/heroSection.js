@@ -4,9 +4,9 @@ export default function HeroSection() {
             <div className="h-3/5 w-3/4 grid auto-rows-min gap-14 m-auto shadow-xl rounded-md bg-contain bg-hero-picture bg-right bg-no-repeat bg-slate-300">
                 <div className="p-20">
                     <div className="grid auto-rows-min h-full w-1/2 gap-y-10">
-                        <h1 class="text-4xl lg:text-5xl font-bold max-h-fit text-left tracking-wide">
+                        <h1 className="text-4xl lg:text-5xl font-bold max-h-fit text-left tracking-wide">
                             Searching for your next{' '}
-                            <span class="text-midnightBlue-100">
+                            <span className="text-midnightBlue-100">
                                 Developer?
                             </span>
                         </h1>
