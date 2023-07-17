@@ -6,6 +6,7 @@ module.exports = {
             backgroundImage: {
                 'hero-picture': "url('../public/assets/heroPicture.png')",
                 'endless-picture': "url('../public/assets/endlessPicture.png')",
+                'contact-picture': "url('../public/assets/contactPicture.png')",
             },
             colors: {
                 midnightBlue: {
@@ -17,6 +18,7 @@ module.exports = {
             scale: {
                 '-100': '-1',
             },
+            visibility: ['group-hover'],
         },
     },
     plugins: [],

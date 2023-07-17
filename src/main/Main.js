@@ -1,3 +1,4 @@
+import ContactSection from '../components/contactSection';
 import HeroSection from '../components/heroSection';
 import MainSection from '../components/mainSection';
 import ProjectSection from '../components/projectsSection';
@@ -10,6 +11,7 @@ export default function Main() {
             <MainSection />
             <SkillsSection />
             <ProjectSection />
+            <ContactSection />
         </section>
     );
 }

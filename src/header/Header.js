@@ -29,7 +29,7 @@ export default function Header() {
                         </a>
                     </li>
                     <li className="p-5 xl:p-8">
-                        <a href="_#">
+                        <a href="#contact">
                             <span>Contact</span>
                         </a>
                     </li>

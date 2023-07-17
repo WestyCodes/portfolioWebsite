@@ -35,3 +35,4 @@ $ npm start
 ## Art Credits
 
 Hero_image Image by upklyak on Freepik
+Contact_image Image by vectorjuice on Freepik
