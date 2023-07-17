@@ -10,7 +10,7 @@ export default function HeroSection() {
                                 Developer?
                             </span>
                         </h1>
-                        <p className="text-left text-3xl tracking-wide w-2/3">
+                        <p className="text-left text-3xl tracking-wide w-80">
                             {' '}
                             Please allow me to introduce myself!
                         </p>
