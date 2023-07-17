@@ -16,7 +16,7 @@ export default function HeroSection() {
                         </p>
                         <p className="w-60 text-left text-2xl tracking-wide">
                             I am{' '}
-                            <span className="text-midnightBlue-100">
+                            <span className="text-midnightBlue-100 font-bold">
                                 Oliver West
                             </span>
                             , a deft designer and curious coder!

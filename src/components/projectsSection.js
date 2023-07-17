@@ -10,7 +10,7 @@ export default function ProjectSection() {
     return (
         <div id="myProjects" className="h-screen flex">
             <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-20 gap-x-10 shadow-xl rounded-md bg-slate-300">
-                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-100">
+                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110">
                     <div className="h-8">
                         <p className="text-3xl font-bold tracking-wide">
                             Caddie's Hack
@@ -19,7 +19,7 @@ export default function ProjectSection() {
                     <div className="row-span-4 grid items-center justify-center">
                         <img
                             className="rounded-xl h-60"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130439496983380038/image.png"
+                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
                             alt=""
                         />
                     </div>
@@ -36,7 +36,7 @@ export default function ProjectSection() {
                         <PostgresLogo className="h-16 w-16" />
                     </div>
                 </div>
-                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-100">
+                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110">
                     <div className="h-8">
                         <p className="text-3xl font-bold tracking-wide">
                             D&D Quest Prompt
@@ -45,7 +45,7 @@ export default function ProjectSection() {
                     <div className="row-span-4 grid items-center justify-center">
                         <img
                             className="rounded-xl h-60"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130439348588920862/image.png"
+                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462719204675635/image.png"
                             alt=""
                         />
                     </div>
