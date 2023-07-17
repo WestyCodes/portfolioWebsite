@@ -1,6 +1,6 @@
 export default function MainSection() {
     return (
-        <div className="h-screen flex">
+        <div id="aboutMe" className="h-screen flex">
             <div className="h-3/5 w-3/4 grid grid-cols-2 m-auto p-20 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
                 <div className="grid h-full items-center">
                     <img

@@ -13,8 +13,8 @@ import { ReactComponent as DockerLogo } from '../svgs/docker.svg';
 
 export default function SkillsSection() {
     return (
-        <div className="h-screen flex">
-            <div className="h-3/4 w-3/4 grid mx-auto p-10 gap-x-10 shadow-xl rounded-md bg-slate-300">
+        <div id="mySkills" className="h-screen flex">
+            <div className="h-3/4 w-3/4 grid m-auto p-10 gap-x-10 shadow-xl rounded-md bg-slate-300">
                 <div className="grid grid-cols-4 items-center gap-5">
                     <div className="mx-auto transform transition duration-300 hover:scale-125">
                         <JSLogo className="shadow-xl rounded-full" />

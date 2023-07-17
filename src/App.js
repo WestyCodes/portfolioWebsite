@@ -12,7 +12,7 @@ function App() {
         <div className="App text-midnightBlue-200">
             <Header />
             <Main />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
