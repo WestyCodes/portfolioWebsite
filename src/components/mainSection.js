@@ -1,4 +1,4 @@
-import { ReactComponent as circleArrowDownLogo } from '../svgs/circleArrowDown.svg';
+// import { ReactComponent as circleArrowDownLogo } from '../svgs/circleArrowDown.svg';
 
 export default function MainSection() {
     return (
