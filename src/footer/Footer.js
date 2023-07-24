@@ -1,7 +1,9 @@
+// &copy; or &#169; for copyright symbol
+
 export default function Footer() {
     return (
-        <div className="footerWrapper">
-            <span>This is a footer</span>
+        <div className="">
+            <span>This is a footer. WestyCodes &#169; </span>
         </div>
     );
 }
