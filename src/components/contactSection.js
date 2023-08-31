@@ -17,6 +17,7 @@ export default function ContactSection() {
                         </h1>
                         <div className="grid grid-cols-3 gap-20">
                             <a
+                                title="Oliver West's LinkedIn Profile"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://www.linkedin.com/in/oliver-west-68401a66/"
@@ -36,6 +37,7 @@ export default function ContactSection() {
                                 <Google />
                             </a>
                             <a
+                                title="Oliver West's GitHub Profile"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://github.com/WestyCodes"
