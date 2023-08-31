@@ -20,15 +20,16 @@ export default function MainSection() {
                         and I am a Full-Stack Developer.
                     </h1>
                     <p className="text-right row-span-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat.
+                        I am a dedicated and passionate Junior Full Stack
+                        Developer, with over 10 years experience in the
+                        publishing industry. I have acquired a comprehensive
+                        knowledge of JavaScript, React, NodeJS, SQL, and an
+                        extensive array of design-based skills, which I
+                        cultivated over my career as a designer and author in
+                        publishing. I have worked on over 150 titles, as an
+                        author, researcher, designer, and illustrator! I can not
+                        wait to bring my expertise and eclectic knowledge to
+                        this fantastic industry!
                     </p>
                 </div>
             </div>

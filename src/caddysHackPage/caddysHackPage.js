@@ -67,13 +67,13 @@ export default function CaddysHackPage() {
             <div className="h-screen flex">
                 <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-10 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
                     <div className="grid grid-rows-auto gap-y-10">
-                        <h2 className="text-4xl font-bold text-left tracking-wide">
+                        <p className="text-4xl font-bold text-left tracking-wide">
                             A quick{' '}
                             <span className="text-midnightBlue-100">
                                 Get Started
                             </span>{' '}
                             guide to help you!
-                        </h2>
+                        </p>
                         <div className="text-left row-span-2">
                             <p className="mb-5">
                                 This app is used to track your shots when at the
