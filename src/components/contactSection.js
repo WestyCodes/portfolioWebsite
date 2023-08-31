@@ -30,7 +30,7 @@ export default function ContactSection() {
                                     navigator.clipboard.writeText(
                                         'oliversimon.west@gmail.com'
                                     );
-                                    alert('email copied to clipboard');
+                                    alert('Email Address copied to clipboard');
                                 }}
                             >
                                 <Google />
