@@ -11,18 +11,17 @@ export default function CaddysHackPage() {
         <section className="font-semibold text-base lg:text-lg bg-endless-picture">
             <div className="h-screen flex">
                 <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
-                    <div className="grid h-full items-center">
+                    <div className="grid h-full items-center justify-center">
                         <img
                             className="rounded-xl h-96 object-cover object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
                             alt=""
                         />
-                        <div className="grid grid-cols-7 my-auto">
+                        <div className="grid grid-cols-6 my-auto">
                             <JSLogo className="h-20 w-20" />
                             <ReactLogo className="h-20 w-20" />
                             <NodeJSLogo className="h-20 w-20" />
                             <HTML5Logo className="h-20 w-20" />
-                            <CSS3Logo className="h-20 w-20" />
                             <TailwindLogo className="h-20 w-20" />
                             <PostgresLogo className="h-20 w-20" />
                         </div>
