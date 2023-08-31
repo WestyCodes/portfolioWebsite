@@ -6,11 +6,18 @@ import { ReactComponent as CSS3Logo } from '../svgs/css3.svg';
 import { ReactComponent as TailwindLogo } from '../svgs/tailwind.svg';
 import { ReactComponent as PostgresLogo } from '../svgs/postgreSQL.svg';
 
+import { useNavigate } from 'react-router-dom';
+
 export default function ProjectSection() {
+    const navigate = useNavigate();
+
     return (
         <div id="myProjects" className="h-screen flex">
-            <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-20 gap-x-10 shadow-xl rounded-md bg-slate-300">
-                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110">
+            <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-20 gap-x-10 shadow-xl rounded-md bg-slate-300 ">
+                <div
+                    className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110 cursor-pointer"
+                    onClick={() => navigate('/caddyshack')}
+                >
                     <div className="h-8">
                         <p className="text-3xl font-bold tracking-wide">
                             Caddie's Hack
