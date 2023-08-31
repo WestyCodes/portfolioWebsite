@@ -23,7 +23,16 @@ export default function ContactSection() {
                             >
                                 <LinkedIn />
                             </a>
-                            <a href="_#">
+                            <a
+                                href="#_"
+                                title="Click to copy my email address to clipboard"
+                                onClick={() => {
+                                    navigator.clipboard.writeText(
+                                        'oliversimon.west@gmail.com'
+                                    );
+                                    alert('email copied to clipboard');
+                                }}
+                            >
                                 <Google />
                             </a>
                             <a
