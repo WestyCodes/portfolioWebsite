@@ -8,6 +8,7 @@ import Main from './main/main.js';
 
 import './App.css';
 import CaddysHackPage from './caddysHackPage/caddysHackPage.js';
+import DndPromptPage from './dndPromptPage/dndPromptPage.js';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/caddyshack" element={<CaddysHackPage />} />
+                <Route path="/dndprompt" element={<DndPromptPage />} />
             </Routes>
             {/* <Footer /> */}
         </div>

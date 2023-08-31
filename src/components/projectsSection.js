@@ -43,7 +43,10 @@ export default function ProjectSection() {
                         <PostgresLogo className="h-16 w-16" />
                     </div>
                 </div>
-                <div className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110">
+                <div
+                    className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110"
+                    onClick={() => navigate('/dndprompt')}
+                >
                     <div className="h-8">
                         <p className="text-3xl font-bold tracking-wide">
                             D&D Quest Prompt

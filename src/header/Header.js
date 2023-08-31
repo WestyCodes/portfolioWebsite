@@ -14,22 +14,22 @@ export default function Header() {
             <nav className="font-semibold text-base lg:text-lg flex">
                 <ul className="mx-auto flex items-center">
                     <li className="p-5 xl:p-8 active">
-                        <a href="#aboutMe">
+                        <a href="/#aboutMe">
                             <span>About</span>
                         </a>
                     </li>
                     <li className="p-5 xl:p-8">
-                        <a href="#mySkills">
+                        <a href="/#mySkills">
                             <span>Skills</span>
                         </a>
                     </li>
                     <li className="p-5 xl:p-8">
-                        <a href="#myProjects">
+                        <a href="/#myProjects">
                             <span>Projects</span>
                         </a>
                     </li>
                     <li className="p-5 xl:p-8">
-                        <a href="#contact">
+                        <a href="/#contact">
                             <span>Contact</span>
                         </a>
                     </li>
