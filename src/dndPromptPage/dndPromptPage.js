@@ -1,3 +1,9 @@
+import { ReactComponent as JSLogo } from '../svgs/js.svg';
+import { ReactComponent as ReactLogo } from '../svgs/react.svg';
+import { ReactComponent as NodeJSLogo } from '../svgs/nodeJS.svg';
+import { ReactComponent as HTML5Logo } from '../svgs/html5.svg';
+import { ReactComponent as CSS3Logo } from '../svgs/css3.svg';
+
 export default function DndPromptPage() {
     return (
         <section className="font-semibold text-base lg:text-lg bg-endless-picture">
@@ -9,6 +15,13 @@ export default function DndPromptPage() {
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462719204675635/image.png"
                             alt=""
                         />
+                        <div className="row-span-1 grid grid-cols-5 my-auto">
+                            <JSLogo className="h-24 w-24" />
+                            <ReactLogo className="h-24 w-24" />
+                            <NodeJSLogo className="h-24 w-24" />
+                            <HTML5Logo className="h-24 w-24" />
+                            <CSS3Logo className="h-24 w-24" />
+                        </div>
                     </div>
                     <div className="grid grid-rows-3 gap-y-5">
                         <h1 className="text-4xl font-bold text-left tracking-wide">
