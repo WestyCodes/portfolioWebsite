@@ -2,7 +2,6 @@ import { ReactComponent as JSLogo } from '../svgs/js.svg';
 import { ReactComponent as ReactLogo } from '../svgs/react.svg';
 import { ReactComponent as NodeJSLogo } from '../svgs/nodeJS.svg';
 import { ReactComponent as HTML5Logo } from '../svgs/html5.svg';
-import { ReactComponent as CSS3Logo } from '../svgs/css3.svg';
 import { ReactComponent as TailwindLogo } from '../svgs/tailwind.svg';
 import { ReactComponent as PostgresLogo } from '../svgs/postgreSQL.svg';
 
