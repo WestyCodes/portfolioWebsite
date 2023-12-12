@@ -5,8 +5,8 @@ import { ReactComponent as GitHub } from '../svgs/smallGitHub.svg';
 export default function ContactSection() {
     return (
         <div id="contact" className="h-screen flex">
-            <div className="h-3/5 w-3/4 grid grid-cols-1 md:grid-cols-3 m-auto shadow-xl rounded-md  bg-slate-300">
-                <div className="p-10 md:pl-20 my-auto">
+            <div className="h-2/5 md:h-3/5 w-3/4 grid grid-cols-1 md:grid-cols-3 m-auto shadow-xl rounded-md  bg-slate-300">
+                <div className="p-3 sm:p-10 md:pl-20 my-auto">
                     <div className="grid h-full gap-y-10">
                         <h1 className="p-2 text-3xl font-bold text-left tracking-wide">
                             Any{' '}
@@ -15,7 +15,7 @@ export default function ContactSection() {
                             </span>
                             , you can reach me here:
                         </h1>
-                        <div className="grid grid-cols-3 gap-20">
+                        <div className="grid grid-cols-3 justify-between lg:gap-20">
                             <a
                                 title="Oliver West's LinkedIn Profile"
                                 target="_blank"
