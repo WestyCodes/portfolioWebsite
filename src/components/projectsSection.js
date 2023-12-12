@@ -13,13 +13,13 @@ export default function ProjectSection() {
 
     return (
         <div id="myProjects" className="h-screen flex">
-            <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-20 gap-x-10 shadow-xl rounded-md bg-slate-300 ">
+            <div className="overflow-auto h-3/4 w-3/4 grid grid-cols-auto xl:grid-cols-2 m-auto p-20 gap-10 xl:gap-x-10 shadow-xl rounded-md bg-slate-300 ">
                 <div
                     className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110 cursor-pointer"
                     onClick={() => navigate('/caddyshack')}
                 >
                     <div className="h-8">
-                        <p className="text-3xl font-bold tracking-wide">
+                        <p className="text-2xl sm:text-3xl font-bold tracking-wide">
                             Caddie's Hack
                         </p>
                     </div>
@@ -48,7 +48,7 @@ export default function ProjectSection() {
                     onClick={() => navigate('/dndprompt')}
                 >
                     <div className="h-8">
-                        <p className="text-3xl font-bold tracking-wide">
+                        <p className="text-2xl sm:text-3xl font-bold tracking-wide">
                             D&D Quest Prompt
                         </p>
                     </div>
