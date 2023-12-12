@@ -13,7 +13,7 @@ export default function ProjectSection() {
 
     return (
         <div id="myProjects" className="h-screen flex">
-            <div className="overflow-auto h-3/4 w-3/4 grid grid-cols-auto xl:grid-cols-2 m-auto p-20 gap-10 xl:gap-x-10 shadow-xl rounded-md bg-slate-300 ">
+            <div className="overflow-auto h-3/4 w-3/4 grid grid-cols-auto xl:grid-cols-2 m-auto p-2 sm:p-10 lg:p-20 gap-10 xl:gap-x-10 shadow-xl rounded-md bg-slate-300 ">
                 <div
                     className="grid grid-rows-8 shadow-xl p-4 rounded-xl bg-slate-300 transform transition duration-300 hover:scale-110 cursor-pointer"
                     onClick={() => navigate('/caddyshack')}
@@ -33,7 +33,7 @@ export default function ProjectSection() {
                     <div className="row-span-2">
                         <p>A manual Golf Shot Tracker app and website.</p>
                     </div>
-                    <div className="row-span-1 grid grid-cols-7 my-auto">
+                    <div className="row-span-2 md:row-span-1 grid grid-cols-4 md:grid-cols-7">
                         <JSLogo className="h-16 w-16" />
                         <ReactLogo className="h-16 w-16" />
                         <NodeJSLogo className="h-16 w-16" />
@@ -65,7 +65,7 @@ export default function ProjectSection() {
                             permutations.
                         </p>
                     </div>
-                    <div className="row-span-1 grid grid-cols-5 my-auto">
+                    <div className="row-span-2 md:row-span-1 grid grid-cols-4 md:grid-cols-5">
                         <JSLogo className="h-16 w-16" />
                         <ReactLogo className="h-16 w-16" />
                         <NodeJSLogo className="h-16 w-16" />
