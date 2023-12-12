@@ -11,8 +11,8 @@ export default function MainSection() {
                         alt=""
                     />
                 </div>
-                <div className="grid grid-rows-3 items-center gap-y-5 lg:gap-y-10">
-                    <h1 className="text-4xl font-bold text-center md:text-right tracking-wide">
+                <div className="grid grid-rows-auto md:grid-rows-3 items-center gap-y-5 lg:gap-y-10">
+                    <h1 className="text-2xl md:text-4xl font-bold text-center md:text-right tracking-wide">
                         Hi, I'm{' '}
                         <span className="text-midnightBlue-100">
                             Oliver West

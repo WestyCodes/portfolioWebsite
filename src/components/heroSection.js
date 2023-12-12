@@ -3,7 +3,7 @@ export default function HeroSection() {
         <div className="h-screen flex">
             <div className="h-3/4 w-3/4 grid gap-14 m-auto shadow-xl rounded-md bg-contain xl:bg-hero-picture bg-right bg-no-repeat bg-slate-300">
                 <div className="p-10 xl:p-20 my-auto">
-                    <div className="grid auto-rows-min h-full xl:w-1/2 gap-y-10">
+                    <div className="grid auto-rows-min h-full xl:w-1/2 gap-y-5 md:gap-y-10">
                         <h1 className="text-4xl xl:text-5xl font-bold max-h-fit text-left tracking-wide">
                             Searching for your next{' '}
                             <span className="text-midnightBlue-100">
