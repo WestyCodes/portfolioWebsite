@@ -8,24 +8,60 @@ import { ReactComponent as PostgresLogo } from '../svgs/postgreSQL.svg';
 export default function CaddysHackPage() {
     return (
         <section className="font-semibold text-base lg:text-lg bg-endless-picture">
-            <div className="h-screen flex">
-                <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
+            <div className="h-max lg:h-screen flex">
+                <div className="mt-10 h-3/4 w-3/4 grid grid-cols-1 lg:grid-cols-2 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
+                    <div className="lg:hidden grid grid-rows-3 gap-y-5">
+                        <h1 className="text-4xl font-bold text-left tracking-wide">
+                            Caddy's Hack, a manual{' '}
+                            <span className="text-midnightBlue-100">
+                                Golf Shot Tracker
+                            </span>{' '}
+                            for use on the go!
+                        </h1>
+                        <div className="ml-2 text-left row-span-2">
+                            <p className="mb-5">
+                                A full stack solo project created within 8 days.
+                                The app is a website and manual golf shot
+                                tracker with data visualisation. Allowing
+                                golfers of all skill levels to track their
+                                progress, and to aid them in refining their
+                                practise.
+                            </p>
+                            <ul className="list-disc">
+                                <li>
+                                    JSON Web token and Bcrypt Hashing for
+                                    security and User Authentication
+                                </li>
+                                <li>
+                                    Bespoke Restful API and ElephantSQL
+                                    Database, utilising Express.js and Prisma
+                                </li>
+                                <li>
+                                    Responsive design for desktop and mobile use
+                                </li>
+                                <li>
+                                    React Front-End, using Conditional
+                                    Rendering, React Hooks, and Render Props
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className="grid h-full items-center justify-center">
                         <img
-                            className="rounded-xl h-96 object-cover object-center"
+                            className="rounded-xl object-cover object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
                             alt=""
                         />
-                        <div className="grid grid-cols-6 my-auto">
-                            <JSLogo className="h-20 w-20" />
-                            <ReactLogo className="h-20 w-20" />
-                            <NodeJSLogo className="h-20 w-20" />
-                            <HTML5Logo className="h-20 w-20" />
-                            <TailwindLogo className="h-20 w-20" />
-                            <PostgresLogo className="h-20 w-20" />
+                        <div className="-translate-x-3 overflow-auto grid grid-cols-6 justify-center items-center">
+                            <JSLogo className="scale-50 lg:scale-90" />
+                            <ReactLogo className="scale-50 lg:scale-90" />
+                            <NodeJSLogo className="scale-50 lg:scale-90" />
+                            <HTML5Logo className="scale-50 lg:scale-90" />
+                            <TailwindLogo className="scale-50 lg:scale-90" />
+                            <PostgresLogo className="scale-50 lg:scale-90" />
                         </div>
                     </div>
-                    <div className="grid grid-rows-3 gap-y-5">
+                    <div className="hidden lg:grid grid-rows-3 gap-y-5">
                         <h1 className="text-4xl font-bold text-left tracking-wide">
                             Caddy's Hack, a manual{' '}
                             <span className="text-midnightBlue-100">
@@ -64,8 +100,8 @@ export default function CaddysHackPage() {
                 </div>
             </div>
 
-            <div className="h-screen flex">
-                <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-10 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
+            <div className="h-min flex">
+                <div className="h-min lg:h-3/4 w-3/4 grid grid-cols-1 lg:grid-cols-2 my-5 m-auto p-10 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
                     <div className="grid grid-rows-auto gap-y-10">
                         <p className="text-4xl font-bold text-left tracking-wide">
                             A quick{' '}
@@ -116,7 +152,7 @@ export default function CaddysHackPage() {
                         </a>
                     </div>
 
-                    <div className="grid grid-rows-2 h-full items-center justify-center">
+                    <div className="hidden lg:grid grid-rows-2 h-full items-center justify-center">
                         <img
                             className="rounded-l object-contain object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1146855294304010291/image.png"

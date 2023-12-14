@@ -7,15 +7,15 @@ import { ReactComponent as CSS3Logo } from '../svgs/css3.svg';
 export default function DndPromptPage() {
     return (
         <section className="font-semibold text-base lg:text-lg bg-endless-picture">
-            <div className="h-screen flex">
-                <div className="h-3/4 w-3/4 grid grid-cols-2 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
+            <div className="h-min flex">
+                <div className="h-min w-3/4 grid grid-cols-1 lg:grid-cols-2 my-5 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
                     <div className="grid h-full items-center justify-center">
                         <img
-                            className="rounded-xl h-96 object-cover object-center"
+                            className="rounded-xl object-cover object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462719204675635/image.png"
                             alt=""
                         />
-                        <div className="row-span-1 grid grid-cols-5 my-auto">
+                        <div className="overflow-auto row-span-1 grid grid-cols-5 my-auto">
                             <JSLogo className="h-24 w-24" />
                             <ReactLogo className="h-24 w-24" />
                             <NodeJSLogo className="h-24 w-24" />
@@ -23,7 +23,7 @@ export default function DndPromptPage() {
                             <CSS3Logo className="h-24 w-24" />
                         </div>
                     </div>
-                    <div className="grid grid-rows-3 gap-y-5">
+                    <div className="grid grid-rows-auto gap-y-5">
                         <h1 className="text-4xl font-bold text-left tracking-wide">
                             A Quest Generator for{' '}
                             <span className="text-midnightBlue-100">
