@@ -156,12 +156,12 @@ export default function CaddysHackPage() {
                         <img
                             className="rounded-l object-contain object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1146855294304010291/image.png"
-                            alt=""
+                            alt="data visualisation of shots 1"
                         />
                         <img
                             className="rounded-l object-contain object-center"
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1146856054173466684/image.png"
-                            alt=""
+                            alt="data visualisation of shots 2"
                         />
                     </div>
                 </div>
