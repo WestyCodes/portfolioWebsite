@@ -52,13 +52,12 @@ export default function CaddysHackPage() {
                             src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
                             alt=""
                         />
-                        <div className="-translate-x-3 overflow-auto grid grid-cols-6 justify-center items-center">
-                            <JSLogo className="scale-50 lg:scale-90" />
-                            <ReactLogo className="scale-50 lg:scale-90" />
-                            <NodeJSLogo className="scale-50 lg:scale-90" />
-                            <HTML5Logo className="scale-50 lg:scale-90" />
-                            <TailwindLogo className="scale-50 lg:scale-90" />
-                            <PostgresLogo className="scale-50 lg:scale-90" />
+                        <div className="overflow-auto row-span-1 grid grid-cols-5 my-auto">
+                            <JSLogo className="h-24 w-24" />
+                            <ReactLogo className="h-24 w-24" />
+                            <HTML5Logo className="h-24 w-24" />
+                            <TailwindLogo className="h-24 w-24" />
+                            <PostgresLogo className="h-24 w-24" />
                         </div>
                     </div>
                     <div className="hidden lg:grid grid-rows-3 gap-y-5">

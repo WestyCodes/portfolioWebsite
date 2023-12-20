@@ -8,7 +8,7 @@ export default function DndPromptPage() {
     return (
         <section className="font-semibold text-base lg:text-lg bg-endless-picture">
             <div className="h-min lg:h-screen flex">
-                <div className="h-min lg:h-3/4 w-3/4 grid grid-cols-1 lg:grid-cols-2 my-5 lg:m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
+                <div className="h-min lg:h-3/4 w-3/4 grid grid-cols-1 lg:grid-cols-2 my-5 m-auto p-5 gap-x-10 shadow-xl rounded-md bg-slate-300 items-center">
                     <div className="grid h-full items-center justify-center">
                         <img
                             className="rounded-xl object-cover object-center"
