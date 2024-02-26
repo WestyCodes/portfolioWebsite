@@ -7,7 +7,7 @@ export default function MainSection() {
                 <div className="hidden md:grid h-auto lg:h-full items-center justify-center">
                     <img
                         className="rounded-full w-50 lg:w-96 h-50 lg:h-96 object-cover object-center shadow-xl border-solid border-4 border-midnightBlue-200"
-                        src="https://cdn.discordapp.com/attachments/1039952875394187295/1130287216191623198/PXL_20230628_111246385.jpg"
+                        src="./assets/picOfMe.jpg"
                         alt=""
                     />
                 </div>
