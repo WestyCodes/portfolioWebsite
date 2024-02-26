@@ -49,7 +49,7 @@ export default function CaddysHackPage() {
                     <div className="grid h-full items-center justify-center">
                         <img
                             className="rounded-xl object-cover object-center"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
+                            src="./assets/caddiesHackTitle.png"
                             alt=""
                         />
                         <div className="overflow-auto row-span-1 grid grid-cols-5 my-auto">
@@ -154,12 +154,12 @@ export default function CaddysHackPage() {
                     <div className="hidden lg:grid grid-rows-2 h-full items-center justify-center">
                         <img
                             className="rounded-l object-contain object-center"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1146855294304010291/image.png"
+                            src="./assets/statsPageCaddy1.png"
                             alt="data visualisation of shots 1"
                         />
                         <img
                             className="rounded-l object-contain object-center"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1146856054173466684/image.png"
+                            src="./assets/statsPageCaddy2.png"
                             alt="data visualisation of shots 2"
                         />
                     </div>
