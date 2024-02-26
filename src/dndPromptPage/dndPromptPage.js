@@ -12,7 +12,7 @@ export default function DndPromptPage() {
                     <div className="grid h-full items-center justify-center">
                         <img
                             className="rounded-xl object-cover object-center"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462719204675635/image.png"
+                            src="./assets/dndTitle.png"
                             alt=""
                         />
                         <div className="overflow-auto row-span-1 grid grid-cols-5 my-auto">
