@@ -8,11 +8,7 @@ export default function Header() {
                 href={'/'}
                 className="hidden md:flex items-center justify-center"
             >
-                <img
-                    className="h-20"
-                    src="https://cdn.discordapp.com/attachments/1039952875394187295/1126492552577695744/celtic_west_logo_v2.png"
-                    alt=""
-                />
+                <img className="h-20" src="./assets/westLogo.png" alt="" />
             </a>
             <nav className="font-semibold text-base lg:text-lg flex">
                 <ul className="mx-auto flex items-center">

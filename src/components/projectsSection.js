@@ -26,7 +26,7 @@ export default function ProjectSection() {
                     <div className="row-span-4 grid items-center justify-center">
                         <img
                             className="rounded-xl h-60"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462601860628520/image.png"
+                            src="./assets/caddiesHackTitle.png"
                             alt=""
                         />
                     </div>
@@ -55,7 +55,7 @@ export default function ProjectSection() {
                     <div className="row-span-4 grid items-center justify-center">
                         <img
                             className="rounded-xl h-60"
-                            src="https://cdn.discordapp.com/attachments/1039952875394187295/1130462719204675635/image.png"
+                            src="./assets/dndTitle.png"
                             alt=""
                         />
                     </div>
